@@ -4,6 +4,15 @@ body
 	color: #000000;
 }
 
+<head>
+<style>
+h2 {
+color: red;
+text-align: center;
+}
+</style>
+</head>
+
 /* 16px == 1rem */
 html { font-size: 16px; }
 
