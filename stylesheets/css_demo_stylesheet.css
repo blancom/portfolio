@@ -86,3 +86,7 @@ i, .warning, #important {
 p.crossout {
     text-decoration: line-through;
 }
+
+footer {
+    display: block;
+}
