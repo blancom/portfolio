@@ -55,20 +55,20 @@ h2+p {
 
 
 /* ID Selectors */
+
+
 /* can only be used once */
-#liEarth
-{
-  color: orange;
+
+#liEarth {
+    color: orange;
 }
 
-span[class]
-{
-  background-color: gray;
+span[class] {
+    background-color: gray;
 }
 
-span[class="notfancy"]
-{
-  background-color: green;
+span[class="notfancy"] {
+    background-color: green;
 }
 
 a[portfolio] {
