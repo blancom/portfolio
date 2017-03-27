@@ -1,0 +1,132 @@
+/* order as the tags first appear in the index.html */
+html {
+  font-size: 16px;
+  font-family: "Calibri Light", 'Calibri', sans-serif;
+}
+
+.header {
+  background-color: #000; /* black */
+  margin: 0;
+  padding: .5rem 0 0 0;
+}
+
+.header span {
+  position: absolute;
+  right: 1rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #FFF; /* white */
+  margin: 2rem 5.5rem 0 1.5rem;
+  padding: 0;
+}
+
+.header h3 {
+  font-size: 1.5rem;
+  color: #808080;  /* gray */
+  margin: 0 5rem 1rem 1.5rem;
+  padding: 0;
+}
+
+.main-nav ul {
+  background: #808080; /* gray */
+  font-size: 1rem;
+  margin: 0;
+  padding: .5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-around;
+  list-style:none;
+}
+
+.main-nav a {
+  color: #FF0000; /* red */
+  margin: 0 1rem;
+}
+
+.link {
+  color: #FF0000; /* red */
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* split the min-width between the article text and the aside */
+.article {
+  margin: 0 1rem;
+  min-width: 50%;
+}
+
+.aside {
+  margin: 1rem 1rem;
+  text-align: center;
+  border: 1px solid #000;
+  min-width: 50%;
+}
+
+.aside img {
+  height: auto;
+  width: auto;
+  max-width: 80%;
+  max-height: 80%;
+  padding: 0;
+}
+
+.aside h2 {
+  font-size: 2rem;
+  margin: .5rem;
+}
+
+.aside h3 {
+  font-size: 1.75rem;
+  margin: .5rem;
+}
+
+.aside h4 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer {
+  background-color: #000;
+  margin: 1rem 0 0 0;
+  padding: .5rem 0 .5rem 0;
+}
+
+.footer p {
+  color: #FFF;
+  margin: 1rem;
+  line-height: .5rem;
+}
+
+.footer div {
+  display: block;
+  text-align: center;
+}
+
+.table td
+{
+  cellspacing: 0;
+  cellpadding: 4;
+  border: 4px #808080;
+  border-collapse: collapse;
+  bordercolor: #808080;
+  width: 527
+}
+
+.projects :nth-child(n+5) {
+    color: green;
+}
+
+.future-projects :nth-child(1) {
+    color: red;
+}

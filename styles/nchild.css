@@ -1,0 +1,17 @@
+div {
+    width: 50%;
+    height 100px;
+    padding: 15px;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    float: left;
+}
+
+div:nth-child(4n+1), div:nth-child(4n+4) {
+    background: red;
+}
+
+div:nth-child(4n+2), div:nth-child(4n+3) {
+    background: blue;
+}
